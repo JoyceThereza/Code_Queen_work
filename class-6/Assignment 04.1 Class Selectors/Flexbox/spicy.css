@@ -1,0 +1,45 @@
+.sample1 {
+    display: flex;
+        justify-content: space-around;
+        background-color: darkgreen;
+        padding: 40px;
+        
+    }
+    .item1 {
+    color: white;
+        
+    }
+    .sample2 {
+    display: flex;
+        justify-content:center;
+        border: 10px double darkgreen;
+        background-color: rgb(193, 233, 16);
+        padding: 40px;
+        
+    }
+    .item2 {
+    color: darkred;
+        margin: 20px; 
+        font-style: oblique;
+        font-size: x-large;
+        
+       
+    }
+    .sample3 {
+    display: flex;
+        justify-content:flex-end;
+        border: 5px solid black;
+        padding: 40px;
+        background-color: rgb(192, 180, 202);
+       
+    }
+    .item3 {
+    color: rgb(205, 63, 63);
+       margin:30px;
+       font-style: normal; 
+       font-size: xx-large;
+        
+        
+    
+    
+    }

@@ -1,0 +1,31 @@
+.sample1 {
+    display: flex;
+        justify-content: center;
+        background-color:gold;
+        padding: 10px;
+        border: 10px solid black; 
+        color: red;
+    }
+    
+    
+    .sample2 {
+    display: flex;
+        justify-content:flex-end;
+        border-bottom:5px solid brown;
+        padding:10px; 
+        background-color:lightgrey;
+    }
+    .sample3 {
+    display:flex;
+        justify-content:flex-start;
+        border:5px double green;
+        padding:10px;
+        color:darkblue;
+        background-color:lightpink;
+        
+    }
+    .item {
+       margin: 10px;
+        
+        
+    }

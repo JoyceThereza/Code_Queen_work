@@ -1,0 +1,47 @@
+.sample1 {
+    display:flex;
+        justify-content:center;
+        border: 5px double brown;
+        padding:20px;
+        background-color:yellowgreen;
+    
+    }
+    .item1 {
+    color: black;
+        margin:20px;
+        border:3px solid black;
+        padding: 10px;
+        background-color:#e2e2e2;
+       
+    }
+    .sample2 {
+        display:flex;
+        justify-content:flex-start;
+        border: 5px solid darkgreen;
+        padding:30px;
+        background-color: lightyellow;
+    }
+    .item2 {
+    margin-left: 20px;
+       border:5px solid orange;
+        padding:10px;
+        border-radius:15px;
+    
+    }
+    .sample3 {
+    display: flex;
+        justify-content: flex-end;
+        background-color: black;
+        border: 10px dashed red;
+        padding: 30px;
+    
+    }
+    .item3 {
+    color: white;
+        border: 2px solid green;
+        margin: 20px;
+        padding: 8px;
+        border-radius: 15px;
+    
+    
+    }

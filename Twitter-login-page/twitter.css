@@ -1,0 +1,81 @@
+.container {
+text-align: left;
+background-color: white;
+width: 400px;
+height: 400px;
+
+}
+.input {
+    background-color: #f5f8fa;
+border-bottom: 2px solid black;
+border-left: 0;
+border-right: 0;
+border-top: 0;
+padding:10px;
+margin-right: 2px;
+
+}
+.password {
+text-decoration: none;
+text-align: right;
+color: blue;
+}
+.sign-up-button {
+border-radius: 100px;
+background-color:#9bd1f9;
+border:0;
+margin-bottom: 10px;
+height: 50px;
+width: 565px;
+font-size: 15px;
+color: white;
+font-weight: bold;
+
+}
+.login-button {
+background-color:white;
+border-radius: 100px;
+border: 2px solid #9bd1f9;
+width: 565px;
+height: 50px;
+font-size: 15px;
+color: blue;
+font-weight: bold;
+
+
+}
+
+.joyce {
+    text-align: center;
+}
+.logo {
+    
+    position: relative;
+    text-align: center;
+    background-color: unset;
+    padding: 100px;
+}
+.inside {
+    position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+  color: white;
+}
+.one {
+    display: flex;
+        flex: 50%;
+        padding: 10px;
+        height: 300px;
+
+}
+.two {
+display: flex;
+    flex: 50%;
+    padding: 10px;
+    height: 300px;
+}
+.big {
+    display: flex;
+}
