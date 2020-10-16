@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>06.3 jQuery Actions w/ Arguments Practice</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="medium.css">
+    </head>
+    <body>
+        <h1>Can I have another donut?</h1>
+        <img src="https://upload.wikimedia.org/wikipedia/en/0/02/Homer_Simpson_2006.png">  
+        <div>
+            <button class="replyYes">Click to reply Yes</button>
+        </div>
+            <p class="homers-reply"> Hmmmm... </p>
+        <div>
+            <button class="replyNo">Click to reply No</button>
+        </div>
+    </body>
+</html>
+<script>
+
+$(".replyYes").click(function() {  
+   $(".homers-reply").text("yes");
+    $("h1").css("font-size","30px");
+    $("h1").css("color","blue");
+    $("img").css("background-image","url(https://topwithcinnamon.com/wp-content/uploads/2019/03/Rhubarb-Baked-Doughnuts-3-735x980.jpg)");
+    
+});
+
+
+$(".replyNo").click(function() {  
+  $(".homers-reply").text("Doh!");
+    $("h1").css("color","purple");
+    $("img").css("height","400px");
+    $("body").css("background-color","pink");
+    $("img").attr("src","https://www.iciw.com/bilder/artiklar/10433-002.jpg?m=1574079395");
+   
+});
+</script>

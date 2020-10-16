@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>06.3 jQuery Actions w/ Arguments Practice</title>
+        <link rel="stylesheet"href="mild.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <h1>Can I have another donut?</h1>
+        <img src="https://upload.wikimedia.org/wikipedia/en/0/02/Homer_Simpson_2006.png">  
+        <div>
+            <button class="replyYes">Click to reply Yes</button>
+        </div>
+            <p class="homers-reply"> Hmmmm... </p>
+        <div>
+            <button class="replyNo">Click to reply No</button>
+        </div>
+    </body>
+</html>
+
+
+<script>
+// Guided Practice
+$(".replyYes").click(function() {  
+    $(".homers-reply").text("Woo Hoo!");
+    $(".replyYes").css("background-color", "yellow");
+     $("body").css("background-color","purple");
+      $("img").css("background-image","url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQBlW5ThIqoHbWdweZnUnwgJm0s3u0fIEIr7w&usqp=CAU)");
+     
+});
+
+//Independent Practice
+$(".replyNo").click(function() { 
+    $(".homers-reply").text("Doh!");
+    $("img").css("height","500px",);
+    $("h1").css("color","green");
+     $("body").css("background-color","cyan");
+    $("img").attr("src","https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTYxgBGVurZGC6BugHAZUYW599kjPw2kULW1Q&usqp=CAU");
+    
+    
+      
+    
+});
+
+
+</script>
