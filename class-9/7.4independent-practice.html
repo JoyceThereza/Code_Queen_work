@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>07.4 Independent Practice: .append() and Concatenation</title>
+        <link rel="stylesheet" href="7.4independent-practice.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+     
+    </head>
+    <body>
+        <h1> College Packing List</h1>
+        <img src="data:image/jpeg;base64,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">
+        <div class="main">
+            <input class="to-pack-input">
+            <button class="to-pack-button">Pack this!
+            </button>
+            
+        </div>
+        <ul class="packing-list">
+            <li>Hooded Sweatshirt</li>
+
+        </ul>
+      <input class="course">
+            <button class='form'> Courses</button>
+        <ol class="course-list">
+            <li>S.1</li>
+            
+        </ol>
+    </body>
+</html>
+<script>
+    $(".to-pack-button").click(function(){
+    let items =$(".to- pack-input").val();
+    $(".packing-list").append("I'm going to pack" + "<li>Water Bottle</li>");
+    
+});
+$(".form").click(function(){
+    let program =$(".course").val();
+    $(".course-list").append("<li>S.2</li>");
+    console.log(program);
+    
+});
+</script>
