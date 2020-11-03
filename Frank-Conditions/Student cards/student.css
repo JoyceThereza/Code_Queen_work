@@ -1,0 +1,14 @@
+.card {
+   background-color: khaki;
+    border: 5px double darkolivegreen;
+    margin: 40px;
+    padding: 10px;
+    width: 200px;
+    height: 200px;
+}
+.container {
+    display: flex;
+}
+h3 {
+    color:darkred;
+}

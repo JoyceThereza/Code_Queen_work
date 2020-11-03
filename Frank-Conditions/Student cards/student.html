@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title> Student cards</title>
+    
+    <link rel="stylesheet" href="student.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+ 
+</head>
+<body>
+    <p>Students' cards</p>
+    <div class="container">
+    <div class="card">
+        <h3>Mark Alonso</h3>
+        <p><strong>Id</strong>=1<br>
+            <strong>Age</strong> 18 <br>
+            <strong>Subjects:</strong> <br>
+            <em>Math</em> <br>
+            Id =1, Score: 60 <br>
+            <em>English</em> <br>
+            Id=2, Score:85  
+        </p>
+    </div>
+
+    <div class="card"> 
+
+        <h3>Paul Ryan</h3>
+        <p><strong>Id</strong>=2<br>
+            <strong>Age</strong> 19  <br>
+            <strong>Subjects:</strong> <br>
+            <em>Math</em> <br>
+            Id =1, Score: 78 <br>
+            <em>English</em> <br>
+            Id=2, Score:75  
+        </p>
+    </div>
+    <div class="card">
+        <h3>Jackie Anite</h3>
+        <p><strong>Id</strong>=3<br>
+            <strong>Age</strong> 21  <br>
+            <strong>Subjects:</strong> <br>
+            <em>Math</em> <br>
+            Id =1, Score: 90 <br>
+            <em>English</em> <br>
+            Id=2, Score:80   
+        </p>
+    </div>
+<div class="card" >
+    <h3> Anita Allain</h3>
+        <p><strong>Id</strong>=4<br>
+            <strong>Age</strong> 18  <br>
+            <strong>Subjects:</strong> <br>
+            <em>Math</em> <br>
+            Id =1, Score: 71 <br>
+            <em>English</em> <br>
+            Id=2, Score:45   
+        </p>
+
+    </div>
+</div>
+<div class="card">
+    <h3> Aine Pamella</h3>
+        <p><strong>Id</strong>=5<br>
+            <strong>Age</strong> 23 <br>
+            <strong>Subjects:</strong> <br>
+            <em>Math</em> <br>
+            Id =1, Score: 83 <br>
+            <em>English</em> <br>
+            Id=2, Score:67  
+        </p>
+    </div>
+
+</body>
+</html>
+<script>
+    const students = [
+    {
+      id: 1,
+      name: "Mark Alonso",
+      age: 18,
+      subjects: [
+        {
+          id: 1,
+          name: "Math",
+          score: 60,
+        },
+        {
+          id: 2,
+           name: "English",
+          score: 85,
+        },
+      ],
+    },
+    {
+      id: 2,
+      name: "Paul Ryan",
+      age: 19,
+      subjects: [
+        {
+          id: 1,
+          name: "Math",
+          score: 78,
+        },
+        {
+          id: 2,
+          name: "English",
+          score: 75,
+        },
+      ],
+    },
+    {
+      id: 3,
+      name: "Jackie Anite",
+      age: 21,
+      subjects: [
+        {
+          id: 1,
+          name: "Math",
+          score: 90,
+        },
+        {
+          id: 2,
+          name: "English",
+          score: 80,
+        },
+      ],
+    },
+    {
+      id: 4,
+      name: "Anita Allain",
+      age: 18,
+      subjects: [
+        {
+          id: 1,
+          name: "Math",
+          score: 71,
+        },
+        {
+          id: 2,
+          name: "English",
+          score: 45,
+        },
+      ],
+    },
+  ];
+  
+  // ASSIGNMENT
+  
+   // Display the above data on a web page. Each student information should appear on a card.
+    // Have 4 cards per row
+    // Make an appealing styling that you want.
+  
+    
+  
+  // GOAL-  Print all students (name) who got 80+ in English
+  // GOAL - Print all students who are 18 years and got 80 and above in English
+  
+  // - Conditionals
+  // - Variables
+  // - For loops
+  
+  // Pseudocode - Steps we are going to take to achieve what's required.
+  
+  // - Declare the required variables
+  // - Iterate through the array using a for .. loops
+  // - Use conditionals to achieve the goal.
+  
+//   for (let student of students) {
+//     for (let subject of student.subjects) {
+//       if (subject.id === 2 && subject.score >= 80 && student.age === 18) {
+//         console.log(student.name);
+//       }
+//     }
+//   }
+  
+</script>
